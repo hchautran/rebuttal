@@ -11,7 +11,7 @@ In The figure above it can easy be seen that the performance gap between ToME an
 ## 2.Visual Question Answering with LLaVA
 To better demonstrate the stregth on PiToMe in generative task like VQA. We have run LLava-7B 7 times on two dataset MME benchmark and ScienceQA.
 
-![Ablation study of parameterm ](figures/llava.png)
+![Ablation study of parameterm ](figures/vqa.png)
 
 It is clear that apart from better perfomance, PiToME achieve much stable accuracy compare to ToMe which is demonstrated as lower std at each ratio $r$.
 
