@@ -3,14 +3,23 @@
 
 
 # Ablation study
+Recall the equation to calcular energy score for each token. 
+
+$$
+ E_i(v_i,W[i,:]) = \frac{1}{N} \sum_{j \in \mathcal{N}(i)}  {f}_m(\cos(v_i,v_j)), \text{ } {f}_m(x) = \begin{cases}
+            x  & \text{ if }  x \geq m \\
+            \alpha(\exp(x-m) - 1) & \text{otherwise}
+        \end{cases}. 
+$$
 
 ### 1. Margin $m$ 
 ![Sample Figure](figures/ablation_study_margin.png)
 
 
-### 2. Lowerbound $\alpha$ 
+## 2. Lowerbound $\alpha$ 
 
 
+### Image-text retrieval
 | | $\alpha=1.0$ | $\alpha=0.5$ | $\alpha=-1.0$|
 |----------|----------|----------|----------|
 | $r=0.85$ | 519.98 | 518.66 |545.9|
@@ -20,6 +29,7 @@
 | $r=0.95$ | 577.5 | 577.43 | 577.4 |
 | $r=0.975$ | 580.24 | 579.82| 579.76|
 
+### Text classification 
 
 
 |  | $\alpha=1.0$ | $\alpha=0.5$ | $\alpha=0.0$|
@@ -32,3 +42,5 @@
 | $r=0.8$ | 91.78 | 91.75| 91.72 |
 | $r=0.85$ | 92.00 | 91.98 | 91.70 |
 | $r=0.9$ | 92.24 | 92.10 | 91.98 |
+
+
