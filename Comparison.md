@@ -1,6 +1,6 @@
 # Compare to ToMe
 
-To better demonstrate the significant performance gain of PiToMe compared to ToMe, we have include several figures for each task accors wider range of ratio $r$. Overall there is one pattern that can be seen accross all task, as long as we don't reduce more than 60\% GFlops PiToMe can outperform ToME by a large margin which grow larger than as ratio $r$ reduce.
+To better demonstrate the significant performance gains of PiToMe compared to ToMe, we have included several figures for each task across a wider range of ratios $r$. A consistent pattern emerges across all tasks: as long as we don't reduce more than 60% of GFlops, PiToMe significantly outperforms ToMe, with the margin of improvement increasing as the ratio $r$ decreases.
 ## 1.Image-text retrieval
 Performance of of PiToMe versus token when applied to CLIP-large , ALBEF and BLIP and run on Flickr30k. 
 
