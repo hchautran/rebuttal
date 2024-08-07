@@ -4,14 +4,14 @@ To better demonstrate the significant performance gain of PiToMe compared to ToM
 ## 1.Image-text retrieval
 Performance of of PiToMe versus token when applied to CLIP-large , ALBEF and BLIP and run on Flickr30k. 
 
-![Ablation study of parameter m ](figures/itr.png)
+![Ablation study of parameterm ](figures/itr.png)
 
 In The figure above it can easy be seen that the performance gap between ToME and PiToMe grow larger as we reduce $r$ (lower gflops). 
 
 ## 2.Visual Question Answering with LLaVA
 To better demonstrate the stregth on PiToMe in generative task like VQA. We have run LLava-7B 7 times on two dataset MME benchmark and ScienceQA.
 
-![Ablation study of parameter m ](figures/llava.png)
+![Ablation study of parameterm ](figures/llava.png)
 
 It is clear that apart from better perfomance, PiToME achieve much stable accuracy compare to ToMe which is demonstrated as lower std at each ratio $r$.
 
