@@ -9,11 +9,11 @@ Performance of of PiToMe versus token when applied to CLIP-large , ALBEF and BLI
 In The figure above it can easy be seen that the performance gap between ToME and PiToMe grow larger as we reduce $r$ (lower gflops). 
 
 ## 2.Visual Question Answering with LLaVA
-To better demonstrate the stregth on PiToMe in generative task like VQA. We have run LLava-7B 7 times on two dataset MME benchmark and ScienceQA.
+To better demonstrate the stregth on PiToMe in generative task like VQA. We have run LLava-7B 7 times on two dataset MME benchmark and ScienceQA. 
 
 ![Ablation study of parameterm ](figures/vqa.png)
 
-It is clear that apart from better perfomance, PiToME achieve much stable accuracy compare to ToMe which is demonstrated as lower std at each ratio $r$. Note that, LLaVa used CLIP-L checkpoint with 24 layers, so here if we used $r=0.95$, the compression rate ViT will reach 0.56%, which mean nearly halves, and PiToMe can still perserve approx 98% performance of LLaVA or even outperform baseline a little in ScieneQA
+It is clear that apart from better perfomance, PiToME achieve much stable accuracy compare to ToMe which is demonstrated as lower std at each ratio $r$. Note that, LLaVa used CLIP-L checkpoint with 24 layers, so here if we used $r=0.95$, the compression rate for ViT will reach 0.56%, which mean nearly halves, and PiToMe can still perserve approx 98% performance of LLaVA or even outperform baseline a little in ScieneQA.
 
 ## 3.Text Classification
 ![Ablation study of parameter m ](figures/tc.png)
