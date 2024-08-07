@@ -13,7 +13,7 @@ To better demonstrate the stregth on PiToMe in generative task like VQA. We have
 
 ![Ablation study of parameterm ](figures/vqa.png)
 
-It is clear that apart from better perfomance, PiToME achieve much stable accuracy compare to ToMe which is demonstrated as lower std at each ratio $r$.
+It is clear that apart from better perfomance, PiToME achieve much stable accuracy compare to ToMe which is demonstrated as lower std at each ratio $r$. Note that, LLaVa used CLIP-L checkpoint with 24 layers, so here if we used $r=0.95$, the compression rate ViT will reach 0.56%, which mean nearly halves, and PiToMe can still perserve approx 98% performance of LLaVA or even outperform baseline a little in ScieneQA
 
 ## 3.Text Classification
 ![Ablation study of parameter m ](figures/tc.png)
