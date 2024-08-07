@@ -24,7 +24,7 @@ Here it can be seen that, in both task, the adative version $m=0.9 - 0.9 \cdot l
 
 ## 2. Lowerbound $\alpha$ 
 
-Recall that we used $\alpha(\exp(x-m) - 1)$ to smoothen the $f_m(\cdot)$ function to consider neighbour tokens that lie close to the margin $m$. The larger $\alpha$ the more consideraton for these neighbours, and $\alpha=0$ also mean we completely ignore them. As shown below, we also tested then on image-text retrieval and text classifcation task, where $\alpha > 0$ does have positive influence on the performance of the model.  
+Recall that we used $\alpha(\exp(x-m) - 1)$ to smoothen the $f_m(\cdot)$ function to consider neighbour tokens that are outside but is close to the margin $m$. The larger $\alpha$, the more consideraton for these neighbours, and $\alpha=0$ also mean we completely ignore them. As shown below, we also tested then on image-text retrieval and text classifcation task, where $\alpha > 0$ does have positive influence on the performance of the model.  
 ##### Image-text retrieval
 | | $\alpha=1.0$ | $\alpha=0.5$ | $\alpha=-1.0$|
 |----------|----------|----------|----------|
