@@ -16,11 +16,9 @@ To better demonstrate the stregth on PiToMe in generative task like VQA. We have
 It is clear that apart from better perfomance, PiToME achieve much stable accuracy compare to ToMe which is demonstrated as lower std at each ratio $r$.
 
 ## 3.Text Classification
-In Text classification task, PiToMe offer much better trade off 
-
 ![Ablation study of parameter m ](figures/tc.png)
 
-Here, PiToMe can compress more than 60% number of tokens while stil achive accuracy above 90% (about 2% drop) and even more than 80% number of tokens while still being able to achieve above 85% in accuracy.
+In Text classification task, PiToMe offer much better trade off Here, PiToMe can compress more than 60% number of tokens while stil achive accuracy above 90% (about 2% drop) and even more than 80% number of tokens while still being able to achieve above 85% in accuracy.
 
 ## 4.Image classification
 ##### DeiT
